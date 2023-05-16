@@ -1,14 +1,14 @@
 
 
 //#include <ESP8266WiFi.h>
-#include <ESP8266WiFiMulti.h>
-#include <ESP8266HTTPClient.h>
-#include <WiFiClient.h>
-#include <TridentTD_LineNotify.h>
+#include 'ESP8266WiFiMulti.h'
+#include 'ESP8266HTTPClient.h'
+#include 'WiFiClient.h'
+#include 'TridentTD_LineNotify.h'
 
-#include <Adafruit_Sensor.h>
-#include <DHT.h>
-#include <DHT_U.h>
+#include 'Adafruit_Sensor.h'
+#include 'DHT.h'
+#include 'DHT_U.h'
 
 
 
@@ -36,7 +36,7 @@ Serial.flush();
 delay(1000);
 }
 
-WiFiMulti.addAP("wifi_2_4_tp-link", "898155420"); // ssid , password <================= change
+WiFiMulti.addAP("xxxxxxxxx", "xxxxxxx"); // ssid , password <================= change
 randomSeed(50);
 
 dht.begin();
