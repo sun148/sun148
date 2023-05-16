@@ -12,7 +12,8 @@ crossorigin="anonymous">
 		<h1>Monitor & Data log of Temperature Humidity @ ZONE Font of DATA CENTRE</h1>
 		<br>
   		<?php
-			date_default_timezone_set('Asia/Bangkok');
+			
+			date_default_timezone_set("Asia/Bangkok");
 			$servername = "db";
 			$username = "root";
 			$password = "MYSQL_ROOT_PASSWORD";
