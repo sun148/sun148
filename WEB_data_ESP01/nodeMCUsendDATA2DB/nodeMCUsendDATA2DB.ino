@@ -19,9 +19,9 @@ const int LED2 = 5; //GPIO05 is D1
 const int LED3 = 4; //GPIO04 is D2
 const int LED4 = 0; //GPIO00 is D3
 
-#define SSID "iot24" // แก้ ชื่อ ssid ของ wifi 
-#define PASSWORD "036412539"//"ใส่ password wifi ตรงนี้" // แก้ รหัสผ่าน wifi
-#define LINE_TOKEN "mDfGuYgEbIhiAjSdOdlfGoOf1mZQB9mogWv8cJl3TDq"//"นำ Line TOKEN มาใส่ในเครื่องหมายคำพูด ซึ่งจะเป็นรหัสของ แต่ละ line Account"// แก้ Line Token // ESPwifi GROUP Line "mDfGuYgEbIhiAjSdOdlfGoOf1mZQB9mogWv8cJl3TDq"
+#define SSID "xxxx" // แก้ ชื่อ ssid ของ wifi 
+#define PASSWORD "xxxxxx"//"ใส่ password wifi ตรงนี้" // แก้ รหัสผ่าน wifi
+// #define LINE_TOKEN "XXXXXXXXXXXXXXXXXXXXXX"//"นำ Line TOKEN มาใส่ในเครื่องหมายคำพูด ซึ่งจะเป็นรหัสของ แต่ละ line Account"// แก้ Line Token // 
 
 
 void setup() {
